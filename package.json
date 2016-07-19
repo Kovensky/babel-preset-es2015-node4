@@ -1,11 +1,11 @@
 {
-  "name": "babel-preset-es2015-node4",
+  "name": "babel-preset-es2015-node4-native-modules",
   "version": "2.1.0",
-  "description": "Babel preset to make node@4 ES2015 compatible.",
+  "description": "Babel preset to make node@4 ES2015 compatible, but with native modules.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbach/babel-preset-es2015-node4.git"
+    "url": "git+https://github.com/Kovensky/babel-preset-es2015-node4-native-modules.git"
   },
   "keywords": [
     "babel",
@@ -22,7 +22,6 @@
   "dependencies": {
     "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-plugin-transform-es2015-function-name": "^6.5.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
     "babel-plugin-transform-es2015-parameters": "^6.7.0",
     "babel-plugin-transform-es2015-shorthand-properties": "^6.5.0",
     "babel-plugin-transform-es2015-spread": "^6.6.5",
